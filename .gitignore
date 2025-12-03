@@ -1,0 +1,129 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+app.log
+
+# Database
+*.db
+*.sqlite3
+
+# ML Models
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Node.js (for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Docker
+.dockerignore
+
+# Project-specific unwanted files
+# Test files
+test_api_integration.py
+test_endpoints.py
+test_feedback_recommendations.py
+test_feedback_simple.py
+test_frontend_integration.py
+test_learning_path_api.py
+test_web_dev_tasks.py
+
+# One-time scripts
+check_learning_path.py
+create_ml_resources.py
+create_sample_notifications.py
+create_tasks_with_urls.py
+create_welcome_notification.py
+fix_learning_paths.py
+generate_task_embeddings.py
+load_and_generate_embeddings.py
+load_csv_data.py
+load_data.py
+load_user_interactions.py
+populate_db.py
+populate_user_data.py
+recommendation_summary.py
+reload_tasks.py
+train_ml_model.py
+verify_embeddings.py
+
+# ML model files
+ml_models.pkl
+
+*.md
